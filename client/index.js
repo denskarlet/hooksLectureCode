@@ -6,14 +6,14 @@ import LocalContext from './context.jsx';
 
 const localization = {
   english: {
-    question: 'what the f*ck?',
-    answer: 'dope sh*t',
-    suggestion: 'go f*ck yourself',
+    question: 'what the hell?',
+    answer: 'dope stuff',
+    suggestion: 'go away plz',
   },
   russian: {
     question: 'что за херня?',
-    answer: 'ахеренное дерьмо',
-    suggestion: 'иди нах*й',
+    answer: 'крутая фигня',
+    suggestion: 'уйди отсюда',
   },
 };
 const Wrapper = () => {
