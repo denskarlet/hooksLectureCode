@@ -33,8 +33,8 @@ const App = () => {
     StaleState,
     UseContext,
     UseContext2,
-    UseCustomHook,
     Memoized,
+    UseCustomHook,
   };
 
   const buttonElems = Object.keys(components).map((elem, index) => {

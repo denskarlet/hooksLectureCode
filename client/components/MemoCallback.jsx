@@ -13,12 +13,11 @@ const Memoized = () => {
     console.log('EXPENSIVE FUNCTION');
     return num * 2;
   };
-  // value we're going to render
+  // to render is a value we're going to render
   // with a current setup itll recalculate itself every time we type something in the input box
   const toRender = calculate(number);
 
-  // uncomment the one bellow and comment out the one above
-  // now the 'calculate' function will only run if 'number' changes
+  // Uncomment the one bellow and comment out the one above, now the 'calculate' function will only run if 'number' changes
   // const toRender = useMemo(() => calculate(number), [number]);
 
   const handleClick = (e) => {
