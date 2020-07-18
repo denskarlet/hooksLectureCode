@@ -1,10 +1,16 @@
 Hooks touched in the lecture:
 -useState
+
 -useReducer
+
 -useEffect
+
 -useContext
+
 -useRef
+
 -useMemo
+
 -useCallback
 
 
